@@ -1,5 +1,5 @@
 {
-  "name": "typescript-npm-package-template",
+  "name": "proxy-handler-decorators",
   "version": "0.0.0-development",
   "description": "A template for creating npm packages using TypeScript and VSCode",
   "main": "./lib/index.js",
@@ -39,13 +39,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
+    "url": "git+https://github.com/Atry/proxy-handler-decorators.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
+    "name": "Yang, Bo",
+    "email": "pop.atry@gmail.com",
+    "url": "https://github.com/Atry"
   },
   "engines": {
     "node": ">=12.0"
@@ -62,9 +62,9 @@
     "codecov"
   ],
   "bugs": {
-    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
+    "url": "https://github.com/Atry/proxy-handler-decorators/issues"
   },
-  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
+  "homepage": "https://github.com/Atry/proxy-handler-decorators#readme",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
@@ -164,5 +164,8 @@
       ],
       "@semantic-release/github"
     ]
+  },
+  "dependencies": {
+    "decorate-all": "^1.2.1"
   }
 }
