@@ -206,13 +206,11 @@ export function AllowGetTarget<
   };
 }
 
-type MappedDecorator<T extends object> = (proxyHandlerConstructor: {
-  new (...args: any[]): ProxyHandler<T>;
-}) => void;
-
 export function Mapped<T extends object>(
   mapper: (from: T) => T
-): MappedDecorator<T> {
+): (proxyHandlerConstructor: {
+  new (...args: any[]): ProxyHandler<T>;
+}) => void {
   return DecorateAll(
     (
       target: Object,
