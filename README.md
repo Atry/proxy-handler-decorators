@@ -28,16 +28,16 @@ Class decorators for proxy handlers.
 [![Commitizen Friendly][commitizen-img]][commitizen-url]
 [![Semantic Release][semantic-release-img]][semantic-release-url]
 
-[build-img]:https://github.com/Atry/tail-call-proxy/actions/workflows/release.yml/badge.svg
-[build-url]:https://github.com/Atry/tail-call-proxy/actions/workflows/release.yml
-[downloads-img]:https://img.shields.io/npm/dt/tail-call-proxy
-[downloads-url]:https://www.npmtrends.com/tail-call-proxy
-[npm-img]:https://img.shields.io/npm/v/tail-call-proxy
-[npm-url]:https://www.npmjs.com/package/tail-call-proxy
-[issues-img]:https://img.shields.io/github/issues/Atry/tail-call-proxy
-[issues-url]:https://github.com/Atry/tail-call-proxy/issues
-[codecov-img]:https://codecov.io/gh/Atry/tail-call-proxy/branch/main/graph/badge.svg
-[codecov-url]:https://codecov.io/gh/Atry/tail-call-proxy
+[build-img]:https://github.com/Atry/proxy-handler-decorators/actions/workflows/release.yml/badge.svg
+[build-url]:https://github.com/Atry/proxy-handler-decorators/actions/workflows/release.yml
+[downloads-img]:https://img.shields.io/npm/dt/proxy-handler-decorators
+[downloads-url]:https://www.npmtrends.com/proxy-handler-decorators
+[npm-img]:https://img.shields.io/npm/v/proxy-handler-decorators
+[npm-url]:https://www.npmjs.com/package/proxy-handler-decorators
+[issues-img]:https://img.shields.io/github/issues/Atry/proxy-handler-decorators
+[issues-url]:https://github.com/Atry/proxy-handler-decorators/issues
+[codecov-img]:https://codecov.io/gh/Atry/proxy-handler-decorators/branch/main/graph/badge.svg
+[codecov-url]:https://codecov.io/gh/Atry/proxy-handler-decorators
 [semantic-release-img]:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-url]:https://github.com/semantic-release/semantic-release
 [commitizen-img]:https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
@@ -109,7 +109,7 @@ The decorator to enable [getTarget](#gettarget) function.
 
 #### Defined in
 
-[index.ts:191](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L191)
+[index.ts:191](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L191)
 
 ___
 
@@ -139,7 +139,7 @@ to the proxy.
 
 #### Defined in
 
-[index.ts:111](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L111)
+[index.ts:111](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L111)
 
 ___
 
@@ -169,7 +169,7 @@ to the proxy.
 
 #### Defined in
 
-[index.ts:147](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L147)
+[index.ts:147](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L147)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[index.ts:209](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L209)
+[index.ts:209](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L209)
 
 ___
 
@@ -237,7 +237,7 @@ the proxy.
 
 #### Defined in
 
-[index.ts:75](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L75)
+[index.ts:75](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L75)
 
 ___
 
@@ -266,4 +266,4 @@ Returns the proxy target if `proxy` is a proxy and its proxy handler has the
 
 #### Defined in
 
-[index.ts:184](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L184)
+[index.ts:184](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L184)
