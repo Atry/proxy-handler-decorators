@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Atry/proxy-handler-decorators/compare/v1.0.3...v1.0.4) (2023-01-16)
+
+
+### Dependencies and Other Build Updates
+
+* update keywords ([4fc490d](https://github.com/Atry/proxy-handler-decorators/commit/4fc490d4bf66d80a7a17b15bf24cab66055c02f8))
+
 ## [1.0.3](https://github.com/Atry/proxy-handler-decorators/compare/v1.0.2...v1.0.3) (2023-01-16)
 
 

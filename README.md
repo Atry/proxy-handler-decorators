@@ -45,6 +45,8 @@ Class decorators for proxy handlers.
 
 **`Example`**
 
+A proxy to transform an array, prepending a '!' character to each element.
+
 ```typescript doctest
 import {
   getTarget,
@@ -54,7 +56,7 @@ import {
   DefaultToStringTag,
   TargetAsThis,
 } from 'proxy-handler-decorators';
-import { DefaultProxyHandler } from 'default-proxy-handler/lib/index';
+import { DefaultProxyHandler } from 'default-proxy-handler';
 
 let counter = 0;
 function addBang(words: string[]): string[] {
@@ -109,7 +111,7 @@ The decorator to enable [getTarget](#gettarget) function.
 
 #### Defined in
 
-[index.ts:191](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L191)
+[index.ts:194](https://github.com/Atry/proxy-handler-decorators/blob/8586f48/src/index.ts#L194)
 
 ___
 
@@ -139,7 +141,7 @@ to the proxy.
 
 #### Defined in
 
-[index.ts:111](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L111)
+[index.ts:114](https://github.com/Atry/proxy-handler-decorators/blob/8586f48/src/index.ts#L114)
 
 ___
 
@@ -169,7 +171,7 @@ to the proxy.
 
 #### Defined in
 
-[index.ts:147](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L147)
+[index.ts:150](https://github.com/Atry/proxy-handler-decorators/blob/8586f48/src/index.ts#L150)
 
 ___
 
@@ -207,7 +209,7 @@ ___
 
 #### Defined in
 
-[index.ts:209](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L209)
+[index.ts:212](https://github.com/Atry/proxy-handler-decorators/blob/8586f48/src/index.ts#L212)
 
 ___
 
@@ -237,7 +239,7 @@ the proxy.
 
 #### Defined in
 
-[index.ts:75](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L75)
+[index.ts:78](https://github.com/Atry/proxy-handler-decorators/blob/8586f48/src/index.ts#L78)
 
 ___
 
@@ -266,4 +268,4 @@ Returns the proxy target if `proxy` is a proxy and its proxy handler has the
 
 #### Defined in
 
-[index.ts:184](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L184)
+[index.ts:187](https://github.com/Atry/proxy-handler-decorators/blob/8586f48/src/index.ts#L187)
