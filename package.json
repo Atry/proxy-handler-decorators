@@ -20,6 +20,7 @@
     }
   },
   "scripts": {
+    "build:watch": "tsc --watch --project tsconfig.build.json",
     "build": "tsc --project tsconfig.build.json",
     "clean": "rm -rf ./lib/",
     "cm": "cz",
@@ -33,7 +34,7 @@
     "typedoc:watch": "typedoc --watch",
     "test:watch": "jest --watch",
     "test": "jest --coverage",
-    "pretest": "typedoc && npm run concat-md && npm run ts-doctest",
+    "pretest": "npm run build && typedoc && npm run concat-md && npm run ts-doctest",
     "watch": "npm-run-all --race --parallel *:watch",
     "typecheck": "tsc --noEmit"
   },
