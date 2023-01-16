@@ -26,6 +26,9 @@
  * [commitizen-url]:http://commitizen.github.io/cz-cli/
  *
  * @example
+ *
+ * A proxy to transform an array, prepending a '!' character to each element.
+ *
  * ```typescript doctest
  * import {
  *   getTarget,
@@ -35,7 +38,7 @@
  *   DefaultToStringTag,
  *   TargetAsThis,
  * } from 'proxy-handler-decorators';
- * import { DefaultProxyHandler } from 'default-proxy-handler/lib/index';
+ * import { DefaultProxyHandler } from 'default-proxy-handler';
  *
  * let counter = 0;
  * function addBang(words: string[]): string[] {
