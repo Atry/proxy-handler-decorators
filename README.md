@@ -109,7 +109,7 @@ The decorator to enable [getTarget](#gettarget) function.
 
 #### Defined in
 
-[index.ts:191](https://github.com/Atry/proxy-handler-decorators/blob/b4c054c/src/index.ts#L191)
+[index.ts:191](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L191)
 
 ___
 
@@ -139,7 +139,7 @@ to the proxy.
 
 #### Defined in
 
-[index.ts:111](https://github.com/Atry/proxy-handler-decorators/blob/b4c054c/src/index.ts#L111)
+[index.ts:111](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L111)
 
 ___
 
@@ -169,13 +169,13 @@ to the proxy.
 
 #### Defined in
 
-[index.ts:147](https://github.com/Atry/proxy-handler-decorators/blob/b4c054c/src/index.ts#L147)
+[index.ts:147](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L147)
 
 ___
 
 ### Mapped
 
-▸ **Mapped**<`T`\>(`mapper`): `MappedDecorator`<`T`\>
+▸ **Mapped**<`T`\>(`mapper`): (`proxyHandlerConstructor`: (...`args`: `any`[]) => `ProxyHandler`<`T`\>) => `void`
 
 #### Type parameters
 
@@ -191,11 +191,23 @@ ___
 
 #### Returns
 
-`MappedDecorator`<`T`\>
+`fn`
+
+▸ (`proxyHandlerConstructor`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `proxyHandlerConstructor` | (...`args`: `any`[]) => `ProxyHandler`<`T`\> |
+
+##### Returns
+
+`void`
 
 #### Defined in
 
-[index.ts:213](https://github.com/Atry/proxy-handler-decorators/blob/b4c054c/src/index.ts#L213)
+[index.ts:209](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L209)
 
 ___
 
@@ -225,7 +237,7 @@ the proxy.
 
 #### Defined in
 
-[index.ts:75](https://github.com/Atry/proxy-handler-decorators/blob/b4c054c/src/index.ts#L75)
+[index.ts:75](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L75)
 
 ___
 
@@ -254,4 +266,4 @@ Returns the proxy target if `proxy` is a proxy and its proxy handler has the
 
 #### Defined in
 
-[index.ts:184](https://github.com/Atry/proxy-handler-decorators/blob/b4c054c/src/index.ts#L184)
+[index.ts:184](https://github.com/Atry/proxy-handler-decorators/blob/556641b/src/index.ts#L184)
