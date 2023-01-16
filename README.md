@@ -109,7 +109,7 @@ The decorator to enable [getTarget](#gettarget) function.
 
 #### Defined in
 
-[index.ts:191](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L191)
+[index.ts:191](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L191)
 
 ___
 
@@ -139,7 +139,7 @@ to the proxy.
 
 #### Defined in
 
-[index.ts:111](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L111)
+[index.ts:111](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L111)
 
 ___
 
@@ -169,7 +169,7 @@ to the proxy.
 
 #### Defined in
 
-[index.ts:147](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L147)
+[index.ts:147](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L147)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[index.ts:209](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L209)
+[index.ts:209](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L209)
 
 ___
 
@@ -237,7 +237,7 @@ the proxy.
 
 #### Defined in
 
-[index.ts:75](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L75)
+[index.ts:75](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L75)
 
 ___
 
@@ -266,4 +266,4 @@ Returns the proxy target if `proxy` is a proxy and its proxy handler has the
 
 #### Defined in
 
-[index.ts:184](https://github.com/Atry/proxy-handler-decorators/blob/18aec97/src/index.ts#L184)
+[index.ts:184](https://github.com/Atry/proxy-handler-decorators/blob/4a04f6e/src/index.ts#L184)

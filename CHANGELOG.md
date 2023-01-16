@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Atry/proxy-handler-decorators/compare/v1.0.2...v1.0.3) (2023-01-16)
+
+
+### Dependencies and Other Build Updates
+
+* **deps:** remove unused doctest-ts-improved ([4a04f6e](https://github.com/Atry/proxy-handler-decorators/commit/4a04f6e78e8362c32f3c193f9c5b234ba0ef7f66))
+
 ## [1.0.2](https://github.com/Atry/proxy-handler-decorators/compare/v1.0.1...v1.0.2) (2023-01-16)
 
 ## [1.0.1](https://github.com/Atry/proxy-handler-decorators/compare/v1.0.0...v1.0.1) (2023-01-16)
