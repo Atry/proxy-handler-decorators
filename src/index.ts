@@ -25,6 +25,44 @@
  * [commitizen-img]:https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
  * [commitizen-url]:http://commitizen.github.io/cz-cli/
  *
+ * @example
+ * ```typescript doctest
+ * import {
+ *   getTarget,
+ *   AllowGetTarget,
+ *   Mapped,
+ *   DefaultToPrimitive,
+ *   DefaultToStringTag,
+ *   TargetAsThis,
+ * } from 'proxy-handler-decorators';
+ * import { DefaultProxyHandler } from 'default-proxy-handler/lib/index';
+ *
+ * let counter = 0;
+ * function addBang(words: string[]): string[] {
+ *   counter++;
+ *   return words.map((word) => `${word}!`);
+ * }
+ *
+ * @AllowGetTarget
+ * @Mapped<string[]>(addBang)
+ * @DefaultToPrimitive
+ * @DefaultToStringTag
+ * @TargetAsThis
+ * class MappedProxyHandler extends DefaultProxyHandler<string[]> {}
+ * const mappedProxyHandler = new MappedProxyHandler();
+ *
+ * const proxy = new Proxy(['hello', 'world'], mappedProxyHandler);
+ * expect(counter).toBe(0);
+ * expect(proxy).toEqual(['hello!', 'world!']);
+ * expect(counter).toBeGreaterThan(0);
+ *
+ * counter = 0;
+ * expect(proxy).toEqual(['hello!', 'world!']);
+ * expect(counter).toBeGreaterThan(0);
+ *
+ * expect(getTarget(proxy)).toEqual(['hello', 'world']);
+ * ```
+ *
  * @module
  */
 
@@ -119,7 +157,7 @@ export function DefaultToStringTag<
         switch (p) {
           case Symbol.toStringTag: {
             const prototype: undefined | Record<any, unknown> =
-              Object.getPrototypeOf(property);
+              Object.getPrototypeOf(target);
             const constructor: unknown = prototype?.constructor;
             if (typeof constructor === 'function') {
               return constructor.name;
